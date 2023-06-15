@@ -1,0 +1,66 @@
+{
+  "manifest_version": 2,
+  "name": "cnap-env-pro",
+  "version": "1.0.0",
+  "description": "通过编辑请求和响应的 header，控制请求环境的浏览器插件",
+  "short_name": "cnap-env-pro",
+  "homepage_url": "https://baidu.com/",
+  "background": {
+    "scripts": [
+      "assets/background-74d3fc81.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": "images/icon.png",
+    "default_title": "ModHeader",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "images/icon_16.png",
+    "48": "images/icon_48.png",
+    "128": "images/icon_128.png"
+  },
+  "incognito": "spanning",
+  "permissions": [
+    "contextMenus",
+    "webRequest",
+    "storage",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "externally_connectable": {
+    "matches": [
+      "*://modheader.com/*"
+    ]
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+H"
+      }
+    },
+    "toggle_pause": {
+      "description": "Toggle pause/resume",
+      "suggested_key": {
+        "default": "Alt+Shift+P"
+      }
+    },
+    "switch_to_profile_1": {
+      "description": "Switch to 1st profile"
+    },
+    "switch_to_profile_2": {
+      "description": "Switch to 2nd profile"
+    },
+    "switch_to_profile_3": {
+      "description": "Switch to 3rd profile"
+    },
+    "switch_to_profile_4": {
+      "description": "Switch to 4th profile"
+    }
+  },
+  "web_accessible_resources": [
+    "images/icon_bw.png",
+    "app.html"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}

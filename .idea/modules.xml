@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Downloads.iml" filepath="$PROJECT_DIR$/.idea/Downloads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Desktop/pythonProject/Base/.idea/jieya.iml" filepath="$PROJECT_DIR$/../Desktop/pythonProject/Base/.idea/jieya.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Desktop/pythonProject/.idea/pythonProject.iml" filepath="$PROJECT_DIR$/../Desktop/pythonProject/.idea/pythonProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Desktop/python_repotory/.idea/python_repotory.iml" filepath="$PROJECT_DIR$/../Desktop/python_repotory/.idea/python_repotory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Desktop/python_test/.idea/python_test.iml" filepath="$PROJECT_DIR$/../Desktop/python_test/.idea/python_test.iml" />
+    </modules>
+  </component>
+</project>
